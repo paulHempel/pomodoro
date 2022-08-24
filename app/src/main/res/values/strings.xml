@@ -1,0 +1,493 @@
+<resources>
+    <string name="app_name">Discipline Bee</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tutorial_title_1">Self control - make it a habit</string>
+    <string name="tutorial_title_2">Just 15 minutes a day</string>
+    <string name="tutorial_title_3">Assign a task to your session</string>
+    <string name="tutorial_title_4">No work outside the session</string>
+    <string name="tutorial_title_5">Give your future self a name</string>
+
+    <string name="tutorial_text_1">Do you want to get things done in time? Do you want to feel the joy of making good use of
+your time?
+        \n\nWorking on tasks with self-discipline should become a routine and not feel like a struggle.
+        \n\n<b>That is the aim of this app!</b></string>
+    <string name="tutorial_text_2">In order to become a habit, we designed this app as an 8-step training program: <b>We start
+        with a very easy first step:</b>
+\n\nFor the whole first week you will set a maximum of one session per day (the session for the
+first week is a 15 minute timeframe of concentrated work).</string>
+    <string name="tutorial_text_3">After this introduction the calendar will open: Just set your session for the first week and
+assign a task (what do you want to achieve during this session). The app is going to remind
+you 1 minute before your session is going to start.</string>
+    <string name="tutorial_text_4">The <b>most important exercise</b> of the first week is to work <b>ONLY during your sessions</b> on
+your tasks. Before and after the session you are going to do whatever you want, but do not
+work on your tasks outside the sessions.
+\n\nThe first week should be easy to you and you will be surprised how much you are going to
+accomplish in 15 minutes of concentrated work!</string>
+    <string name="tutorial_text_5">Take a moment to imagine your future self. What will it be like to be a person who is in control of his/her time and being able accomplishes his/her tasks?\n</string>
+
+    <string name="give_your_future_self_name">Give your futures self a name:</string>
+    <string name="bee">Bee</string>
+
+    <string name="done">Done</string>
+
+    <string name="overview">Overview</string>
+    <string name="calendar">Calendar</string>
+    <string name="advice">Advice</string>
+    <string name="reset_all_data">Reset all data</string>
+    <string name="reset_this_level">Reset this level</string>
+
+    <string name="are_you_sure_reset_data">All your data will be deleted. Are you sure you want to reset data?</string>
+    <string name="are_you_sure_reset_level">All your data in this level will be deleted. You will be able to start this level again next week. Are you sure you want to reset this level?</string>
+
+
+    <string name="your_next_pomodoro">Your next session \"%1$s\" starts %2$s at <b>%3$s</b></string>
+    <string name="report">Report</string>
+    <string name="your_progres_this_week">Your progress this week</string>
+
+    <string name="you_have_done">So far you have finished %1$s of your sessions this week.\n Stay focus to reach the next level. (%2$s required to complete this level)</string>
+    <string name="you_have_done2">So far you have done %1$s of your tasks within the set time. Try to plan realistic tasks for your sessions (%2$s required to complete this level)</string>
+
+    <string name="you_have_done_level_0">So far you have finished %1$s of your sessions this week.</string>
+    <string name="you_have_done2_level_0">So far you have done %1$s of your tasks within the set time.</string>
+
+    <string name="advice_text_1">Take a moment to imagine your future self. What will it be like to be a person who is in control of his/her time and being able accomplishes his/her tasks? Whenever it feels hard to start a pomodoro think that your actions today are a step towards a person with self-control.</string>
+
+    <string name="did_you_stayed_focusd">Did you stayed focused?</string>
+    <string name="did_you_finish_task">Did you finish your task?</string>
+
+    <string name="i_stayed_focused">I stayed focused</string>
+    <string name="i_did_not_focused_on_my_task">I did not focus on my task</string>
+    <string name="i_finished_my_task">I finished my task</string>
+    <string name="i_did_not_finished_my_task">I did not finish my task</string>
+
+    <string name="save">Save</string>
+    <string name="your_pomodoro_starts_in">Your session starts in:</string>
+    <string name="relax_a_moment">Get ready for your session and avoid distraction: we recommend to use the flight mode or to disable mobile data during the session.</string>
+    <string name="time_left">Time left:</string>
+    <string name="stay_focused_and_avoid">Stay focused and avoid distractions.</string>
+    <string name="stop">Stop</string>
+    <string name="alert">Alert</string>
+    <string name="are_you_sure_you_want_exit">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="finish">Finish</string>
+
+    <string name="accomplished_pomodoros">Accomplished sessions</string>
+    <string name="accomplished_tasks">Accomplished tasks</string>
+    <string name="report_succ">Congratulations – you accomplished 100% of your sessions, X% of your tasks and reached Level 2 - a great step towards more self-control!</string>
+    <string name="report_fail">Thanks for your hones answer! You did not accomplish the session today and you cannot pass the level this week anymore. Try a fresh start next week and make sure that you accomplish all your sessions. We are sure that you are going to accomplish 100% of them with the next try.</string>
+    <string name="next_level_info">The next level will be a bit tougher: you will need assign 8-12 sessions for the whole week and you will need to accomplish 87,5% of them to reach Level 3.</string>
+    <string name="good_for_planet">Reaching self-control and finishing your session is something great for you, but also think about people and nature that surrounds you. There should be some time left to do something good for this planet: engage in human rights, protect nature, etc. and don’t let advertisement fool you: material stuff is not going to make you happy.</string>
+
+    <string name="pomodoro">Pomodoro</string>
+    <string name="this_app">This App</string>
+    <string name="habits">Habits</string>
+    <string name="procrastination">Procrastination</string>
+    <string name="your_future_self">Your future self</string>
+    <string name="meditation">Mediation</string>
+    <string name="sleep">Sleep</string>
+    <string name="failure">Failure</string>
+    <string name="nature">Physical Exercise/Nature</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="use_your_time">Use your time</string>
+    <string name="work_together">Recommendation: Work together</string>
+    <string name="references">References</string>
+
+
+    <string name="pomodoro_text">The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, separated by short breaks.
+        \n(https://en.wikipedia.org/wiki/Pomodoro_Technique)\n\n
+
+        <b>How to use the Pomodoro technique within this app:</b>
+\n\t•	Choose a session in the calendar
+\n\t•	Enter the task which you want to finish during your session
+\n\t•	Choose a starting time for the session
+\n\t•	Work on the task ONLY during your session time
+\n\t•	End work when the session timer of this app rings and answer honestly
+\n\t•	Consider taking a longer break after a row of four sessions.
+
+\n\n\For more information check this link: https://www.youtube.com/watch?v=1l4w7uHdNaQ</string>
+
+    <string name="this_app_text">The aim of this app is
+	\n\t•	that you start with your work on time
+	\n\t•	that you only use the session time for work
+	\n\t•	that you make realistic plans about your tasks
+\n\nWhen you postpone tasks, you do that because you might think you can still do the tasks later on. That is a thought we want to erase and that is why you should ONLY work on your tasks during the sessions.
+\n\nFurthermore, you assign tasks to your sessions. You will give feedback if you managed to
+accomplish them during the session. The report will track how often you accomplish your
+tasks and that is going to help you to plan more realistically.</string>
+
+    <string name="habits_text">Once your behavior becomes a habit you will have to invest less willpower. After this
+program starting your sessions on time should be a routine like brushing your teeth. Your
+reward will be that you can value your free time much more and get your tasks done in time.
+
+\n\nReference:
+\nDuhigg, Charles: The power of habit
+    </string>
+    <string name="procrastination_text">Procrastination is the avoidance or the postponing of tasks that need to be done. To stop procrastination, you need to learn that postponing tasks is not an option during this program.
+\nThat is why you should ONLY work on your tasks during the sessions.</string>
+
+    <string name="your_future_self_text">You need to understand that the actions you take today are going to influence who you are
+going to be in the future. Therefore, take a moment to imagine how your Future-Self will look
+like: Close your eyes for a few seconds to imagine that you are already that person who is
+able to get tasks done:
+	\n\t•	How will the Future-Self feel after achieving the goals?
+	\n\t•	Will you enjoy your free time much more after having done all of your tasks?
+	\n\t•	What is your Future-Self doing after having accomplished all of the tasks?
+
+\n\nAnd now, whenever you are tempted to postpone your tasks ask yourself if it will be worth to
+lose these achievements. What are you going to gain if you postpone your tasks today? Is it
+a good deal to postpone and fail to become the Future-Self you just had imagined? What
+would your Future-Self look and feel like if you postpone tasks today?
+
+    \n\nReference:
+        \nMcGonigal, Kelly: The Willpower Instinct, Chapter 7: Putting the future on Sale: The Economics of Instant Gratification</string>
+
+    <string name="meditation_text">A good start to gain self-control is to arise self-awareness: It will help you to recognize when
+you are making a choice, why you are doing what you do and how you feel when you resist a
+temptation. Pay attention to the moment when you are making a choice:\n
+
+	\n\t•	Which are the circumstances of your choice?
+	\n\t•	What has influenced you? Can you use these circumstances to trigger a wanted behavior?
+	\n\t•	Or use the circumstances to avoid a certain behavior?
+
+        \n\nA five-minute meditation is a good training to raise some self-awareness and a good training
+for your brain how to handle inner (cravings, worries, desires) and outer distractions (sounds,
+sights and smells).\n
+
+        \n\t•  Sit up straight rest your hands in your lap and try to sit still. If you feel the impulse to
+move try to resist this impulse.
+        \n\t•  Try to focus on your breath using the words “inhale” and “exhale” in your mind. When
+you realize that your mind wanders try to bring back your focus to your breath.
+
+        \nEven if you feel that your mind wanders and if you feel that you do not perform well on
+focusing on your breath this training is still going to help you practice self-awareness and
+self-control and will impact your behavior during the rest of the day.
+    \n\nReference:
+        \nMcGonigal, Kelly: The Willpower Instinct, Chapter 1: I will, I won’t, I want: What willpower is, and why it matters
+    </string>
+
+    <string name="sleep_text">Sleep deprivation will make you more susceptible of stress, cravings and temptation. Sleep
+deprivation affects the way body and brain absorb glucose from the bloodstream – the main
+form of energy for your willpower. Not enough sleep will make you feel exhausted. Try to get
+enough sleep (uninterrupted sleep at night, short naps during the day: whatever works best
+for you to avoid sleep deprivation)
+
+\n\nReference:
+\nMcGonigal, Kelly: The Willpower Instinct, Chapter 2: The Willpower Instinct: Your body was born to resist cheesecake</string>
+
+    <string name="failure_text">Everybody makes mistakes and loses self-control. How you handle these failures is
+important. Take a moment to write down how you feel about your failure. Consider that you
+are human and that it is perfectly normal sometimes to lose self-control. Take the point of
+view of a close friend, who beliefs in you and supports you. How would this close friend
+encourage you to continue working on self-control again?
+
+\n\nReference:
+\nMcGonigal, Kelly: The Willpower Instinct, Chapter 6: How feeling bad leads to giving in</string>
+
+    <string name="nature_text">Think of physical exercise as something that restores your willpower and not of something
+that drains willpower. A regular five minutes exercise relieves stress and enhances self-
+control. Transfer your physical exercise outdoors. The presence of nature improves mood,
+enhances focus, and boosts self-control. Do not set high goals, which you are going to skip -
+it is important that you are going to stick to your regular exercises.
+
+\n\nReference:
+\nMcGonigal, Kelly: The Willpower Instinct, Chapter 2: The Willpower Instinct: Your body was born to resist cheesecake</string>
+
+    <string name="nutrition_text">Your nutrition has an effect on your willpower. Food with a low glycemic index digests more
+slowly, prompting a more gradual rise in blood sugar (Examples are apples, carrots, oatmeal,
+bulgur, whole grain bread, etc.)
+For a start we recommend to integrate at least some healthy food into your meal plan.
+
+\n\nFor a list of food with a low glycemic index check this link:
+http://www.diabetes.org/food-and-fitness/food/what-can-i-eat/understanding-carbohydrates/glycemic-index-and-diabetes.html
+
+\n\nReference:
+\nBaumeister, Roy: Willpower: Rediscovering the greatest human strength, Chapter: 2: Where does the power in willpower come from?</string>
+
+    <string name="use_your_time_text">Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able to do something for the environment or the
+people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”
+    </string>
+
+    <string name="work_together_text">There is a social influence to many of our challenges. Do others of your social network,
+friends or family members share your willpower challenge? Surround yourself with people
+who share the same goals as you. Set up a group of people to join your challenge. Is there
+anyone whose opinion matters to you and who will be happy to hear about your success?
+Share your story with them (in person, in social networks, etc.). Send your reports to
+someone, who supports your goals.
+
+        \n\nReference:
+\nMcGonigal, Kelly: The Willpower Instinct, Chapter 8: The Willpower Instinct: Infected! Why willpower is contagious</string>
+
+    <string name="references_text">References
+	\n\t•	Baumeister, Roy: Willpower: Rediscovering the greatest human strength
+	\n\t•	Duhigg, Charles: The power of habit
+	\n\t•	McGonigal, Kelly: The Willpower Instinct,
+	\n\t•	Fromm, Erich: To have or to be?</string>
+
+
+    <string name="set_pomodoro">Set session</string>
+    <string name="pomodoro_info">Level %1$d: You have set %2$d out of max. %3$d sessions</string>
+
+    <string name="pomodoro1">Session 1</string>
+    <string name="pomodoro2">Session 2</string>
+    <string name="pomodoro3">Session 3</string>
+    <string name="pomodoro4">Session 4</string>
+    <string name="pomodoro5">Session 5</string>
+    <string name="pomodoro6">Session 6</string>
+    <string name="pomodoro7">Session 7</string>
+    <string name="pomodoro8">Session 8</string>
+
+
+    <string name="your_task">Your task</string>
+    <string name="set_time">Set time</string>
+    <string name="pomodoro_can_be_changed">Sessions can be changend until midnight</string>
+    <string name="switch_off_other_apps">Switch off other applicationd during session?</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="select_time">Select time</string>
+    <string name="today">today</string>
+    <string name="no_pomodoro_setup">You don\'t have any sessions scheduled</string>
+
+    <string name="your_next_pomodoro_will_start">Your next session will start in 1 minute</string>
+    <string name="your_pomodoro_starts_now">Your session starts now</string>
+    <string name="start_pomodoro">Start session</string>
+
+    <string name="please_answer">Please, answer questionns</string>
+    <string name="saved">Saved</string>
+
+    <string name="level">Level</string>
+    <string name="result">Result</string>
+
+    <string name="your_progress">Your progress</string>
+
+    <string name="result_after_level_0">Your test session has been finished.</string>
+
+    <string name="result_after_level_1">Congratulations – you accomplished 100% of your sessions and reached Level 2 - a great step towards more self-control!
+        \n\n The next level will be a bit tougher: you will need assign 8-12 sessions for the whole week and you will need to accomplish 87,5% of them to reach Level 3. </string>
+    <string name="result_after_level_2">Congratulations – you accomplished 87,5% of your sessions and reached Level 3 - a great step towards more self-control!
+     \n\n The next level will be a bit tougher: you will need assign 12-18 sessions for the whole week and you will need to accomplish 75% of the sessions and 12,5% of your task to reach Level 4. Make sure you make a realistic plan to accomplish them within the session.
+    \n\n Reaching self-control and finishing your sessions is something great – you can make better use of your time and maybe you are now able to do something for the environment or the people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="result_after_level_3">Congratulations – you accomplished 75% of your sessions, 12,5% of your tasks and reached Level 4 - a great step towards more self-control!
+    \n\n The next level will be a bit tougher: you will need assign 16-24 sessions for the whole week and you will need to accomplish 75% of the sessions and 25% of your task to reach Level 5. Make sure you make a realistic plan to accomplish them within the session.
+    \n\n Reaching self-control and finishing your sessions is something great – you can make better use of your time and maybe you are now able to do something for the environment or the people around you? Or you use your free time to learn more about yourself and the society - maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="result_after_level_4">Congratulations – you accomplished 75% of your sessions, 25% of your tasks and reached Level 5 - a great step towards more self-control!
+    \n\n Before you continue take a minute to consider how many sessions of tasks you want to add to your weekly plan – make sure that there is a balance between tasks and free time. Also consider planning a longer break after a row of four sessions.
+        \nAlso consider planning a longer break after a row of four sessions.
+        \n\n The next level will be a bit tougher: you will need assign 20-30 sessions for the whole week and you will need to accomplish 75% of the sessions and 50% of your task to reach Level 6. Make sure you make a realistic plan to accomplish your tasks within the session.</string>
+    <string name="result_after_level_5">Congratulations – you accomplished 75% of your sessions, 50% of your tasks and reached Level 6 - a great step towards more self-control!
+    \n\n The next level will be a bit tougher: you will need assign 24-36 sessions for the whole week and you will need to accomplish 75% of the sessions and 50% of your task to reach Level 7. Make sure you make a realistic plan to accomplish your tasks within the session.
+    \n\n Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able to do something for the environment or the
+people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="result_after_level_6">Congratulations – you accomplished 75% of your sessions, 50% of your tasks and reached Level 7 - a great step towards more self-control!
+    \n\n The next level will be a bit tougher: you will need assign 28-42 sessions for the whole week and you will need to accomplish 75% of the sessions and 62,5% of your task to reach Level 8.
+        \n\n Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able to do something for the environment or the people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="result_after_level_7">Congratulations – you accomplished 75% of your sessions, 62,5% of your tasks and reached Level 8 - a great step towards more self-control!
+    \n\n The next level will be a bit tougher: you will need assign 32-48 sessions for the whole week and you will need to accomplish 75% of the sessions and 75% of your task to finish this training.
+        \n\n Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able to do something for the environment or the
+people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="result_after_level_8">Congratulations – you really managed eight sessions, which requires a lot of self-discipline.
+        \n\nIf you are satisfied with the app, please recommend it.</string>
+
+    <string name="advice_of_level_0">This week has left less than four days that is why you start with a test session in this week. You can check the function of the timer and assign a task for one session this week. After the Test session you can start with Level 1.</string>
+    <string name="advice_of_level_1">This training program is only going to work if you do your tasks during your sessions and stop working outside of these sessions. It is essential that you make it a habit to only use the time of the session, that will avoid postponing tasks.</string>
+    <string name="advice_of_level_2">Take a moment to imagine your future self. What will it be like to be a person who is in
+control of his time and being able to accomplish his tasks? Whenever it feels hard to start a
+session remember that your actions today are a step towards a person with self-control.</string>
+    <string name="advice_of_level_3">Meditation supports a wide range of self-control skills, including attention, focus, stress
+management, impulse control and self-awareness. Go to menu and check the meditation
+training in the advice section.</string>
+    <string name="advice_of_level_4">Sleep is important for your self-control. When you are tired your cells will have trouble absorbing glucose from the bloodstream. You will be exhausted and have less willpower, so make sure you get enough sleep.</string>
+    <string name="advice_of_level_5">You are a human and as every human you struggle with willpower and sometimes loses self-
+control. If you fail sticking to your plan think of it as a normal challenge. How would you
+encourage a friend to keep on practicing self-control?</string>
+    <string name="advice_of_level_6">A short five-minute walk in nature decreases stress, improves mood, enhances focus and supports your self-control. Think of using a break for some fresh air.</string>
+    <string name="advice_of_level_7">You will need energy for your willpower. Food with a low glycemic index for example digests
+more slowly, prompting a more gradual rise in blood sugar. For more information check the
+advice section.</string>
+    <string name="advice_of_level_8">Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able to do something for the environment or the
+people around you? Or you use your free time to learn more about yourself and the society -
+maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+
+
+    <string name="advice_day_1_level_1">Your first session is finished. For the training program it is important that you only work during the sessions, therefore stop your tasks for today and make sure you do not miss any of your following sessions. The first week is essential for your success – you need to reach 100% of your sessions!</string>
+    <string name="advice_day_2_level_1">Your second session is finished. Stop your tasks for today. This is essential to get used to working only during your self-determined sessions. If you continue working now you get used to the thought that you can postpone your tasks. That will lead to procrastination and that is something we want to avoid. For more information check out procrastination on the advice section.</string>
+    <string name="advice_day_3_level_1">Your third session is finished. A technical piece of advice: Once your smartphone had been switched off completely please open this app manually by clicking on the icon so that the timer can proceed as normal. In case of feedback please let us know and check the menu \“Technical Issues\”.</string>
+    <string name="advice_day_4_level_1">Your fourth session is finished. Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_1">Your fifth session is finished. Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_6_level_1">Your sixth session is finished. Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+
+    <string name="advice_day_1_level_2">This week you will need to accomplish 87,5% of your sessions, so stay focused.</string>
+    <string name="advice_day_2_level_2">Take a moment to imagine your future self. What will it be like to be a person who is in
+control of his time and being able to accomplish his tasks?</string>
+    <string name="advice_day_3_level_2">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+    <string name="advice_day_4_level_2">Stay honest and stop doing your work/tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_2">Whenever it feels hard to start a session remember that your actions today are a step
+towards a person with self-control.</string>
+    <string name="advice_day_6_level_2">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_3">This week you will need to accomplish 75% of your sessions and 12,5% of your task so stay focused.</string>
+    <string name="advice_day_2_level_3">Meditation supports a wide range of self-control skills, including attention, focus, stress
+management, impulse control and self-awareness. Go to the menu item “advice” and read
+about meditation.</string>
+    <string name="advice_day_3_level_3">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+    <string name="advice_day_4_level_3">Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_3">Have you checked the information on meditation? It supports a wide range of self-control
+skills, including attention, focus, stress management, impulse control and self-awareness. Go
+to the menu item \“advice\” and read about meditation.</string>
+    <string name="advice_day_6_level_3">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_4">This week you will need to accomplish 75% of your sessions and 25% of your task so stay focused.</string>
+    <string name="advice_day_2_level_4">Sleep it is important for your self-control. When you are tired your cells will have trouble absorbing glucose from the bloodstream. You will be exhausted and have less willpower, so make sure you get enough sleep.</string>
+    <string name="advice_day_3_level_4">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+    <string name="advice_day_4_level_4">Stay honest and stop doing your work/tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_4">Keep in mind to get enough sleep: It is important for your self-control.</string>
+    <string name="advice_day_6_level_4">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_5">This week you will need to accomplish 75% of your sessions and 50% of your task so stay focused.</string>
+    <string name="advice_day_2_level_5">You are a human and as every human you struggle with willpower and sometimes loses self-control. If you fail sticking to your plan then think of it as a normal challenge. How would you encourage a friend to keep on practicing self-control?</string>
+    <string name="advice_day_3_level_5">Consider to leave one session of the day without assigned work for unplanned tasks.</string>
+    <string name="advice_day_4_level_5">Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_5">See failure as a normal process: If you fail sticking to your plan think of it as a normal challenge. How would you encourage a friend to keep on practicing his/her self-control?</string>
+    <string name="advice_day_6_level_5">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_6">This week you will need to accomplish 75% of your sessions and 50% of your task so stay focused.</string>
+    <string name="advice_day_2_level_6">A short five-minute-walk in nature decreases stress, improves mood, enhances focus and
+supports your self-control. What about using the break for some fresh air?</string>
+    <string name="advice_day_3_level_6">Consider to leave one session of the day without assigned work for unplanned tasks.</string>
+    <string name="advice_day_4_level_6">Stay honest and stop doing your tasks for today. Make it a habit to work only during your sessions.</string>
+    <string name="advice_day_5_level_6">Did you visit mother nature today? A walk decreases stress, improves mood, enhances focus
+and supports your self-control.</string>
+    <string name="advice_day_6_level_6">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_7">This week you will need to accomplish 75% of your sessions and 62,5% of your task so stay focused.</string>
+    <string name="advice_day_2_level_7">You will need energy for your willpower. Eating food with a low glycemic index digests more
+slowly, prompting a more gradual rise in blood sugar. Think of including something healthy
+like a carrot to your daily meal plan.</string>
+    <string name="advice_day_3_level_7">Consider to leave one session of the day without assigned work for unplanned tasks.</string>
+    <string name="advice_day_4_level_7">After seven sessions today you should schedule time for relaxation and enjoyment now.</string>
+    <string name="advice_day_5_level_7">Have you included something healthy like a carrot to your daily meal plan to support your willpower with the necessary energy?</string>
+    <string name="advice_day_6_level_7">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+    <string name="advice_day_1_level_8">This week you will need to accomplish 75% of your sessions and 75% of your task so stay focused.</string>
+    <string name="advice_day_2_level_8">Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able also to do something for the environment or
+people around you? Or you use your free time to learn more about yourself and who you
+want to be, maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="advice_day_3_level_8">Consider to leave one session of the day without assigned work for unplanned tasks.</string>
+    <string name="advice_day_4_level_8">After eight sessions you should schedule time for relaxation and enjoyment now.</string>
+    <string name="advice_day_5_level_8">Reaching self-control and finishing your sessions is something great – you can make better
+use of your time and maybe you are now able also to do something for the environment or
+people around you? Or you use your free time to learn more about yourself and who you
+want to be, maybe by reading Erich Fromm: \“To Have or to Be?\”</string>
+    <string name="advice_day_6_level_8">It is always easier with the support of other people. Recommend this app to your friends and work together on self-control.</string>
+
+
+    <string name="level_1_label">Level 1 (100% sessions needed)</string>
+    <string name="level_2_label">Level 2 (87,5% sessions needed)</string>
+    <string name="level_3_label">Level 3 (75% sessions needed and 12,5% tasks needed)</string>
+    <string name="level_4_label">Level 4 (75% sessions needed and 25% tasks needed)</string>
+    <string name="level_5_label">Level 5 (75% sessions needed and 50% tasks needed)</string>
+    <string name="level_6_label">Level 6 (75% sessions needed and 50% tasks needed)</string>
+    <string name="level_7_label">Level 7 (75% sessions needed and 62,5% tasks needed)</string>
+    <string name="level_8_label">Level 8 (75% sessions needed and 75% tasks needed)</string>
+
+    <string name="your_accomplished_pomodoros">Your accomplished sessions %1$s</string>
+    <string name="your_accomplished_tasks">Your accomplished tasks %1$s</string>
+
+
+    <string name="level_2_locked">Level 2 - locked</string>
+    <string name="level_3_locked">Level 3 - locked</string>
+    <string name="level_4_locked">Level 4 - locked</string>
+    <string name="level_5_locked">Level 5 - locked</string>
+    <string name="level_6_locked">Level 6 - locked</string>
+    <string name="level_7_locked">Level 7 - locked</string>
+    <string name="level_8_locked">Level 8 - locked</string>
+
+
+    <string name="session_finished">Your session is finished.</string>
+
+
+    <string name="week_number">Week number</string>
+
+    <plurals name="sessions_set">
+        <item quantity="one">So far you have set %1$d session this week %2$s</item>
+        <item quantity="other">So far you have set %1$d sessions this week %2$s</item>
+    </plurals>
+
+<!--    <string name="so_far">So far you have set %1$d sessions this week %2$s</string>-->
+
+    <string name="save_session">Save session</string>
+
+    <string name="exit_calendar_without_starting">Exit calendar without starting</string>
+    <string name="save_and_start_program">Save and start program</string>
+
+    <string name="test_level_messege">This week has left less than four days that is why you start with a test session in this week. Check the function of timer by setting one session in the calendar now and then click on "SAVE AND START PROGRAM".</string>
+    <string name="info">Info</string>
+
+    <string name="level_1_fail">Thanks for your honest answer! You did not accomplish all sessions (which is required for Level 1) and you cannot pass the level. But try a fresh start next week and make sure that you accomplish all your sessions. We are positive that you are going to accomplish 100% of them with the next try.</string>
+    <string name="level_2_fail">You did not pass Level 2 but do not worry. Keep on answering honestly because this app is
+    just for you and nobody else. It is not important if this program takes a week longer – it is
+    important that you gain self-control. Repeat Level 2: you will need to assign 8-12 sessions for
+        the whole week and you will need to accomplish 87,5% of them to reach Level 3.</string>
+    <string name="level_3_fail">You did not pass Level 3 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is
+important that you gain self-control. Repeat Level 3: you will need to assign 12-18 sessions
+for the whole week and you will need to accomplish 75% of the sessions and 12,5% of your
+task to reach Level 4</string>
+    <string name="level_4_fail">You did not pass Level 4 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is important that you gain self-control Repeat Level 4: you will need to assign 16-24 sessions
+for the whole week and you will need to accomplish 75% of the sessions and 25% of your
+task to reach Level 5.</string>
+    <string name="level_5_fail">You did not pass Level 5 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is
+important that you gain self-control. Repeat Level 5: you will need to assign 20-30 sessions
+for the whole week and you will need to accomplish 75% of the sessions and 50% of your
+task to reach Level 6.</string>
+    <string name="level_6_fail">You did not pass Level 6 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is
+important that you gain self-control. Repeat Level 6: you will need to assign 24-36 sessions
+for the whole week and you will need to accomplish 75% of the sessions and 50% of your
+task to reach Level 7.</string>
+    <string name="level_7_fail">You did not pass Level 7 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is
+important that you gain self-control. Repeat Level 7: you will need to assign 28-42 sessions
+for the whole week and you will need to accomplish 75% of the sessions and 62,5% of your
+task to reach Level 8.</string>
+    <string name="level_8_fail">You did not pass Level 8 but do not worry. Keep on answering honestly because this app is
+just for you and nobody else. If this program takes a week longer is not important. It is
+important that you gain self-control. Repeat Level 8: you will need assign 32-48 sessions for
+the whole week and you will need to accomplish 75% of the sessions and 75% of your task
+to finish this training.</string>
+
+    <string name="cant_save_session_same_time">You can\'t save two session at same time or within 30 minutes range!</string>
+    <string name="set_sessions_next_week">Please set sessions for next week</string>
+
+    <string name="you_have_not_set_enugh">You have not set enough sessions to start this level. Please go to the calendar and set the minimum number of sessions.</string>
+
+    <string name="save_changes">Save changes</string>
+
+    <string name="one_test_session">You can only set one test session.</string>
+
+    <string name="feedback">Contact &amp; Legal</string>
+
+    <string name="i_am_ready">I am ready, let\'s start now</string>
+
+</resources>

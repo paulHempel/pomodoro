@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/dash"
+            android:title="@string/overview" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/calendar"
+            android:title="@string/calendar" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/advice"
+            android:title="@string/advice" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report"
+            android:title="@string/report" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/reset_level"
+            android:icon="@drawable/history"
+            android:title="@string/reset_this_level" />
+        <item
+            android:id="@+id/clear_data"
+            android:icon="@drawable/delete"
+            android:title="@string/reset_all_data" />
+    </group>
+
+
+</menu>
