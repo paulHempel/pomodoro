@@ -26,9 +26,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.crashlytics.android.answers.Answers;
-import com.crashlytics.android.answers.CustomEvent;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
@@ -254,8 +251,6 @@ public class NotificationActivity extends BaseActivity {
         nextPomoTitle.setText(getString(R.string.time_left));
         placeholderText.setText(getString(R.string.stay_focused_and_avoid));
 
-        Answers.getInstance().logCustom(new CustomEvent("Preptime  finished")
-                .putCustomAttribute("Id", id));
 
         setPomodoroTimer();
     }
@@ -333,8 +328,6 @@ public class NotificationActivity extends BaseActivity {
         resultRl.setVisibility(View.VISIBLE);
         isCanceld = false;
 
-        Answers.getInstance().logCustom(new CustomEvent("Session  finished")
-                .putCustomAttribute("Id", id));
 
         onCreateViewResultFragm();
     }
@@ -388,8 +381,6 @@ public class NotificationActivity extends BaseActivity {
                 .setOngoing(false)
                 .build();
 
-        Answers.getInstance().logCustom(new CustomEvent("Finish notification showed")
-                .putCustomAttribute("Id", id));
 
         notificationManager.notify(0, notification);
     }
@@ -423,8 +414,6 @@ public class NotificationActivity extends BaseActivity {
                 .setOngoing(false)
                 .build();
 
-        Answers.getInstance().logCustom(new CustomEvent("Start session notification showed")
-                .putCustomAttribute("Id", id));
 
         notificationManager.notify(0, notification);
     }
@@ -488,8 +477,6 @@ public class NotificationActivity extends BaseActivity {
                 AppHelper.getInstance().setSessionCount(0);
                 AppHelper.getInstance().setIsProgramStarted(false);
 
-                Answers.getInstance().logCustom(new CustomEvent("Level 0 finished")
-                        .putCustomAttribute("Id", id));
                 break;
             case 1:
                 int maxPomo = pomodoros.size();
@@ -527,8 +514,6 @@ public class NotificationActivity extends BaseActivity {
 
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 1 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -547,8 +532,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 1 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -592,8 +575,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 2 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -612,8 +593,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 2 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -658,8 +637,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 3 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -678,8 +655,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 3 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -724,8 +699,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 4 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -744,8 +717,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 4 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -790,8 +761,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 5 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -810,8 +779,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 5 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -856,8 +823,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 6 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -876,8 +841,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 6 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -922,8 +885,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 7 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -942,8 +903,6 @@ public class NotificationActivity extends BaseActivity {
                                 });
                             }
                         }
-                        Answers.getInstance().logCustom(new CustomEvent("Level 7 failed finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{
@@ -989,8 +948,6 @@ public class NotificationActivity extends BaseActivity {
                             }
                         }
 
-                        Answers.getInstance().logCustom(new CustomEvent("Level 8 successfully finished")
-                                .putCustomAttribute("Id", id));
                     } else {
 //                        activity.startActivity(new Intent(activity, MainActivity.class));
                         //fail
@@ -1010,8 +967,6 @@ public class NotificationActivity extends BaseActivity {
                             }
                         }
 
-                        Answers.getInstance().logCustom(new CustomEvent("Level 8 successfully finished")
-                                .putCustomAttribute("Id", id));
                     }
                     setPushNotification();
                 }else{

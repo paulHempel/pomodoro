@@ -3,9 +3,6 @@ package pomodoro.com.pomodoro.util;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import java.util.Calendar;
-import java.util.Locale;
-
 import pomodoro.com.pomodoro.constants.SharedPrefsConst;
 
 /**

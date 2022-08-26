@@ -5,10 +5,6 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.crashlytics.android.answers.Answers;
-import com.crashlytics.android.answers.CustomEvent;
-import com.google.gson.Gson;
-
 import io.realm.Realm;
 import io.realm.RealmResults;
 import pomodoro.com.pomodoro.pojo.Pomodoro;
@@ -42,10 +38,6 @@ public class SplashActivity extends AppCompatActivity {
                     });
                 }
             }
-
-            Answers.getInstance().logCustom(new CustomEvent("Done sessions deleted")
-                    .putCustomAttribute("Done deleted", "true")
-                    .putCustomAttribute("Level", AppHelper.getInstance().getLevel()));
         }
 
 

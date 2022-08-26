@@ -2,10 +2,7 @@ package pomodoro.com.pomodoro.realm;
 
 import android.content.Context;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 import io.realm.Realm;
 import io.realm.RealmResults;

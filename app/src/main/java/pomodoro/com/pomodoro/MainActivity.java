@@ -13,21 +13,18 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v4.app.NotificationCompat;
-import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.crashlytics.android.answers.Answers;
-import com.crashlytics.android.answers.CustomEvent;
 import com.jakewharton.threetenabp.AndroidThreeTen;
 
 import org.threeten.bp.LocalDateTime;
@@ -35,14 +32,12 @@ import org.threeten.bp.ZoneId;
 
 import java.util.Calendar;
 import java.util.Locale;
-import java.util.logging.Level;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
 import pomodoro.com.pomodoro.fragments.advice.AdviceFragment;
 import pomodoro.com.pomodoro.fragments.dashboard.OverviewFragment;
 import pomodoro.com.pomodoro.fragments.pomodoro.NewCalendarFragment;
-
 import pomodoro.com.pomodoro.fragments.report.ReportSummaryFragment;
 import pomodoro.com.pomodoro.fragments.tutorial.TutorialDialogFragment;
 import pomodoro.com.pomodoro.pojo.Pomodoro;
@@ -425,9 +420,6 @@ public class MainActivity extends BaseActivity
                 .setVibrate(new long[]{1000, 1000})
                 .setOngoing(false)
                 .build();
-
-        Answers.getInstance().logCustom(new CustomEvent("Level finished Notification showed")
-                .putCustomAttribute("Level", AppHelper.getInstance().getLevel() + ""));
 
         notificationManager.notify(0, notification);
     }
